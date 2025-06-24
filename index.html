@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Sewa Mobil</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="halaman-index">
+    <div class="container">
+        <header>Portal Sewa Mobil</header>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#form">Form Pelanggan</a>
+        </nav>
+
+        <main>
+            <!-- 1. Render Daftar Mobil -->
+            <section class="mobil">
+                <h1>Daftar Mobil</h1>
+                <div class="mobil-container">
+
+                </div>
+            </section>
+
+            <!-- 2. Form Pelanggan -->
+            <section class="form" id="form">
+                <h1>Form Pelanggan</h1>
+                <div class="form-container">
+                    <div class="form-card">
+                        <label for="nama-pelanggan">Nama Pelanggan</label>
+                        <input type="text" id="nama-pelanggan" placeholder="Masukkan nama Anda">
+                        <div class="form-button">
+                            <button class="btn">Hitung Total Biaya</button>
+                            <button class="btn2" disabled>Simpan Pemesanan</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. Ringkasan Pemesanan -->
+            <section class="summary" style="display: none;">
+                <h1>Ringkasan Total Biaya</h1>
+                <div class="summary-container"></div>
+            </section>
+
+            <!-- 4. Riwayat Pemesanan -->
+            <section class="saved">
+                <h1>Riwayat Pemesanan Anda</h1>
+                <div class="saved-container"></div>
+            </section>
+        </main>
+
+        <footer>
+            &copy; Dhiya Tsaltsa Muharram | NIM 2702389745 | LA79
+        </footer>
+    </div>
+    <script defer src="./js/app.js"></script>
+
+</body>
+
+</html>
